@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* start navbar */
+.navbarr .uk-logo {
+    margin-left: 10px;
+    color: yellow;
+}
+.navbarr .uk-navbar-toggle {
+    color:black;
+    background-color:yellow;
+    margin-right: 50px;
+}
+.navbarr .uk-navbar-container:not(.uk-navbar-transparent) {
+    margin: 0;
+    background: black;
+}
+.navbarr .uk-card-default {
+    background: black;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+    height: 400px;
+    color: white;
+}
+.navbarr .uk-card-default .uk-card-title {
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    line-height: 1.4;
+    text-transform: capitalize;
+}
+.navbarr .uk-card-default p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbarr .uk-button-default {
+    background-color: #ce393900;
+    color: rgba(255,255,255,.9);
+    border: 1px solid #ecec0b;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+.navbarr .uk-button-default:hover {
+    border: 1px solid #ecec0b;
+    background-color:yellow;
+    color: black
+}
+/* end navbar */
+/* start card */
+.card {
+    clear: both;
+    background-color: #ecec0b;
+    color:black;
+    height:120px ;
+    width: 100%;
+}
+.card p{
+  position: relative;  
+  top: 20px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+}
+/* end card */
+/* start icon */
+.icons i {
+    background-color: #ecec0b;
+    color: black;
+    font-size: 30px;
+    padding: 5%;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.icons h3 {
+    color: #ecec0b;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+  text-shadow: 2px 2px black;
+}
+.icons  p{
+    font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+  color: black;
+}
+.icons .uk-button-default {
+    border: 1px solid #ecec0b;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    color: black;
+    background-color:aliceblue;
+}
+.icons .uk-button-default:hover{
+    border: 1px solid black;
+    background-color:yellow;
+    color: blackl
+}
+/* end icons */
+/* start num */
+.num .uk-section-muted {
+    background-color: black;
+    color: antiquewhite
+}
+.num .uk-section-muted h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: antiquewhite
+}
+.num .uk-section-muted i {
+    color: #ecec0b;
+    font-size: 30px;
+}
+.num .uk-section-muted p{
+    color: #ecec0b;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+/* end num */
+/* start far */
+.far .uk-section-default h1 {
+    color: #ecec0b;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px black;
+}
+.far .uk-section-default p {
+    color: black;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif
+}
+.far .uk-section-default .uk-button-default{
+    color: black;
+    border-radius: 2px;
+    border:1px solid black;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif
+}
+ .far  .active {
+    background-color: #ecec0b;
+    color: black;
+    border-radius: 2px;
+    border:1px solid black;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif
+}
+.far .uk-button-secondary {
+    border: 1px solid #ecec0b;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    color: black;
+    background-color:aliceblue;
+}
+.far .uk-button-secondary:hover{
+    border: 1px solid black;
+    background-color:yellow;
+    color: blackl
+
+}
+/* end far */
+/* start client*/
+.celint .uk-section-secondary h3 {
+    color: #ecec0b;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+}
+.celint .uk-section-secondary p {
+    color: aliceblue;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+.celint .uk-section-secondary i {
+    color: #ecec0b;
+    font-size: 30px;
+    margin-left: 3px;
+}
+/* end clint */
+/* satrt contact*/
+.contact .uk-section-muted {
+    background-color: white;
+}
+.contact .uk-section-muted p{
+    color: black;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif
+}
+.contact .uk-section-muted h2{
+    color: #ecec0b;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px black;
+}
+.contact input {
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 350px;
+    padding: 5px;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+.contact textarea {
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 350px;
+    margin-top: 5px;
+    padding: 5px;
+    text-transform: capitalize;
+}
+.contact .uk-button-default {
+    border: 1px solid #ecec0b;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    color: black;
+    background-color:aliceblue;
+}
+.contact .uk-button-default:hover{
+    border: 1px solid black;
+    background-color:yellow;
+    color: blackl
+
+}
+/*end contact */
+/* start ads*/
+.ads .uk-section-muted {
+background-color: #ecec0b;
+}
+.ads .uk-section-muted i{
+    color: black;
+    font-size: 20px;
+}
+/* end ads*/
+/* start footer */
+.footer i {
+    font-size:30px;
+    margin-left: 5px;
+}
+.footer p {
+     text-transform: capitalize;
+     font-size:20px;
+     font-family: 'Times New Roman', Times, serif
+}
+/* end footer */
